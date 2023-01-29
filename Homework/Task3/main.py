@@ -27,6 +27,10 @@ if __name__ == '__main__':
 
 
 number = str(input("Введите шестизначное число:"))
-int(number[0])+ int(number[1]) +int(number[2])
 
-print(summ)
+if len(number) != 6:
+    print('Неверное число')
+    quit()
+elif int(number[0]) + int(number[1]) + int(number[2]) == int(number[3]) + int(number[4]) + int(number[5]):
+         print('Да')
+else:print('Нет')
