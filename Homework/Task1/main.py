@@ -24,8 +24,10 @@ if __name__ == '__main__':
 
 
 
-number = str(input("Введите число:"))
-summ = int(number[0])+ int(number[1]) +int(number[2])
-
+number = str(input("Введите трёхзначное число:"))
+if len(number) != 3:
+    print('Неверное число')
+    quit()
+else: summ = int(number[0]) + int(number[1]) + int(number[2])
 print(summ)
 
