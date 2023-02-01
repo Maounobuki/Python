@@ -14,7 +14,7 @@ import random
 
 coins_quantity = int(input('Введите количество монет:'))
 
-i =0
+i =0  #Счётчик для цикла
 heads = 0
 tails = 0
 while i < coins_quantity:
