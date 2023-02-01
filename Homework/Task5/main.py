@@ -19,13 +19,13 @@ heads = 0
 tails = 0
 while i < coins_quantity:
       coin = random.randint(0, 1)
-      print(coin)
-
+      print(coin)   #стол с монетами печатаются для наглядности,
+                    # хоть в условии этого делать не нужно
       if coin == 0:
           tails += 1
       else: heads += 1
       i += 1
 else:
     if tails < heads:
-     print(tails)
-    else: print(heads)
+     print(f'Минимальное количество переворачиваемых монет: {tails}')
+    else: print(f'Минимальное количество переворачиваемых монет: {heads}')
