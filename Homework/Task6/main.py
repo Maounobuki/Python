@@ -8,16 +8,17 @@
 # 5 6 -> 2 *
 
 
+#
+# numbers_summ = int(input('Введите сумму искомых чисел:'))
+# numbers_mult = int(input('Введите произведение искомых чисел:'))
+#
+# for i in range(0, 1001, 1):
+#     for k in range(0, 1001, 1):
+#      if i + k == numbers_summ and i * k == numbers_mult:
+#             print(f'Искомая пара чисел: {i}, {k}')
+#             quit()
+#
+#
+# else:
+#   print('Такой пары чисел не существует!')
 
-numbers_summ = int(input('Введите сумму искомых чисел:'))
-numbers_mult = int(input('Введите произведение искомых чисел:'))
-
-for i in range(0, 1001, 1):
-    for k in range(0, 1001, 1):
-     if i + k == numbers_summ and i * k == numbers_mult:
-            print(f'Искомая пара чисел: {i}, {k}')
-            quit()
-
-
-else:
-  print('Такой пары чисел не существует!')
